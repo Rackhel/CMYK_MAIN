@@ -419,9 +419,9 @@ def run_optuna(n_trials: int | None = None, channel: str = "all") -> None:
     최적화 완료 후 best params로 최종 재학습하여 best_{ch}.pt를 갱신한다.
     After optimization, retrains with best params to update best_{ch}.pt.
     """
-    from src.scripts.run_phase2 import (  # noqa: F401 (lazy — keep tuning→scripts boundary)
+    from src.scripts.run_phase2 import (
         run_phase2,
-    )
+    )  # noqa: F401 (lazy — keep tuning→scripts boundary)
     from src.utils import load_config
 
     channel = channel.lower()
