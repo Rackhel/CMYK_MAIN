@@ -25,7 +25,7 @@ python-dotenv>=1.0.0 # only needed if using .env files for configuration
 
 # ── Visualization & Reporting / 시각화 및 리포팅 ────────────────────────────
 plotly>=6.7.0
-matplotlib>=3.10.9
+matplotlib>=3.11.0
 seaborn>=0.13.2
 Jinja2>=3.1.0 # only needed for HTML report generation
 
