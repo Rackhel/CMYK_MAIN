@@ -17,7 +17,7 @@ scipy>=1.17.1
 albumentations>=2.0.8 # only needed for advanced data augmentation
 
 # ── Hyperparameter Tuning / 하이퍼파라미터 튜닝 ──────────────────────────────
-optuna>=3.4.0
+optuna>=4.9.0
 
 # ── Configuration & Utilities / 설정 및 유틸리티 ─────────────────────────────
 PyYAML>=6.0.3
