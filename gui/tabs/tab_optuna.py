@@ -216,7 +216,9 @@ class OptunaTab(BaseTab):
         self._p0_wp_min.setValue(int(p0_wp[0]))
         self._p0_wp_max.setValue(int(p0_wp[1]))
         self._p0_hd.setText(self._csv_text(p0_ss.get("hidden_dim") or [128, 256, 512]))
-        self._p0_pd.setText(self._csv_text(p0_ss.get("projection_dim") or [64, 128, 256]))
+        self._p0_pd.setText(
+            self._csv_text(p0_ss.get("projection_dim") or [64, 128, 256])
+        )
 
         p2_ss = opt.get("phase2", {}).get("search_space", {})
         eff = p2_ss.get("efficientnet_b0", {})

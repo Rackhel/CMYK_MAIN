@@ -59,6 +59,7 @@ def load_normalize_transform(ckpt_path: Path):
             pass
     # fallback: ImageNet 기본값 / fallback to ImageNet defaults
     from src.data.normalize import _IMAGENET_NORMALIZE
+
     return _IMAGENET_NORMALIZE
 
 
