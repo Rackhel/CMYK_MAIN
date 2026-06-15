@@ -43,7 +43,7 @@ umap-learn>=0.5.12
 # streamlit>=1.28.0  # optional (web GUI — legacy; project uses PyQt6 desktop GUI)
 PyQt6>=6.11.0 
 PyQt6-WebEngine>=6.11.0 # required for QtWebEngine support in desktop GUI
-pyinstaller>=6.20.0 # only needed for building GUI executable
+pyinstaller>=6.21.0 # only needed for building GUI executable
 
 # ── Code Quality & Formatting / 코드 품질 및 포매팅 ─────────────────────────────
 black>=26.5.1
