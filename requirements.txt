@@ -8,7 +8,7 @@ torchvision>=0.27.0
 # ── Data Processing & Analysis / 데이터 처리 및 분석 ───────────────────────
 # numpy<2 제약: Anaconda 기본 환경의 pyarrow/pandas가 NumPy 1.x 기준 컴파일
 # numpy<2 constraint: Anaconda default env's pyarrow/pandas compiled against NumPy 1.x
-numpy>=1.24.0,<2.0
+numpy>=2.5.0,<3.0
 pandas>=3.0.3
 opencv-python>=4.8.0
 Pillow>=12.2.0
