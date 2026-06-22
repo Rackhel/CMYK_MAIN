@@ -50,6 +50,6 @@ black>=26.5.1
 isort>=5.12.0
 
 # ── ONNX & Model Export / ONNX 및 모델 내보내기 ───────────────────────────────
-onnx>=1.21.0
+onnx>=1.22.0
 onnxscript>=0.7.0
 onnxruntime>=1.17.0
